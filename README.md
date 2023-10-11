@@ -1,4 +1,4 @@
-# My-Unblocked-Games
+# populargames.github.io
 
 ## General
 
