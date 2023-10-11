@@ -1,0 +1,26 @@
+body{
+    border-style: dotted;
+    border-color: darkblue;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to left, skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 400px;
+    margin-left: 368px;
+    margin-right: 368px;
+    text-shadow: 20px 5px 5px darkblue;
+    animation: mySlidefortitle;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+}
+
+body:hover{
+    box-shadow: 5px 5px 5px darkblue;
+}
+
+@keyframes mySlidefortitle{
+    from{margin-left: 100%;}
+    to{margin-left: 368px;}
+}
